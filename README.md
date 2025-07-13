@@ -1,5 +1,5 @@
 *****
-Edit-Distance
+## Edit-Distance
 *****
 
 [<img src="https://img.shields.io/pypi/dm/tweet-preprocessor.svg">](https://test.pypi.org/project/edit-distance-package-urmia-university/0.0.2/#description)
@@ -40,25 +40,27 @@ Usage (Examples)
 Hamming Distance:
 ---------------
 
-.. code:: python
-
     >>> import Edit-Distance as ed
     >>> string1 = "karolin"
     >>> string2 = "kathrin"
     >>> distance = hamming_distance(string1, string2)
     >>> print(f"The Hamming distance between '{string1}' and '{string2}' is {distance}.")
     'The Hamming distance between 'karolin' and 'kathrin' is 2'
-
+     
+    
 Jacard Similarity:
 -----------
-
-.. code:: python
 
      >>> string1 = "hello"
      >>> string2 = "hallo"
      >>> n_value = 2
      >>> jaccard_similarity(string1, string2, n_value)
      0.33
+
+Categories
+============ 
+[<img src="https://github.com/HamidrezaSadr1/Edit-Distance/blob/main/digram.png">](https://hkiokhio2@gmail.com)
+
 
 Installation
 ============
@@ -80,6 +82,5 @@ Using Anaconda:
 Comments and Suggestions
 ============
 Use the library and give us feedback:
-- On GitHub
-- Mail to
-[<img src="https://github.com/HamidrezaSadr1/Edit-Distance/blob/main/email.png">](https://hkiokhio2@gmail.com)
+- send message in GitHub
+- send mail to [hkiokhio2@gmail.com]
